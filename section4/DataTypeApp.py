@@ -1,5 +1,5 @@
 print("---------------------------------------")
-print("Lucibel Shop VAT INVOICE")
+print("Walcome to Lucubel Shop")
 print("---------------------------------------")
 print("Water     x", 3, 10,"THB -", 3*10, "THB")
 print("Banana    x", 2, 15,"THB -", 2*15, "THB")
