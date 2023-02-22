@@ -1,2 +1,2 @@
-# Coses-Python_By-BorntoDev
+# Course-Python_By-BorntoDev
 โปรเจคนี้สร้างเพื่อเก็บข้อมูลการเรียนรู้ภาษาไพธอนเท่านั้น
