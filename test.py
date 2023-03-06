@@ -1,5 +1,4 @@
-start = int(input("Start: "))
-step = int(input("Step: "))
+def AddNumber(x, y):
+    print(x + y)
 
-for i in range(5):
-    print(start + step * i, end=" ")
+AddNumber(10, 5)
