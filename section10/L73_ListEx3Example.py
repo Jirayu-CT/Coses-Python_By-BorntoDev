@@ -20,3 +20,4 @@ while True:
         menuList.append([menuName, systemMenu[menuName]])
 
 showBill()
+
