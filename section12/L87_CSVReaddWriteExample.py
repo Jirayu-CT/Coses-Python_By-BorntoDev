@@ -3,7 +3,7 @@ import csv
 
 def ReadCsv():
     #ส่วนการเปิดไฟล์ CSV ที่ชื่อ employee_birthday.txt
-    with open('C:\\Users\Acer\Desktop\CoursePython_Borntodev\Coses-Python_By-BorntoDev\section12\L87_Employee_brithday.txt') as csv_file:
+    with open('L87_Employee_brithday.txt') as csv_file:
     #สร้างตัวแปรที่มีหน้ามีอ่านข้อมูล CSV ชื่อ csv_reader โดยแยกข้อมูลด้วยเครื่องหมาย , (comma)#สร้างตัวแปรที่ใช้ในการนับว่ามีกี่แถวแล้ว
         csv_reader = csv.reader(csv_file, delimiter =',')
         line_count = 0
@@ -31,7 +31,9 @@ def WriteCSV():
         employee_writer.writerow(['kita', 'anabel', 'cat'])
 
 WriteCSV()
+ReadCsv()
 
 n = 4
 print(f'Hello {n} wopww')
 print(f'\tHello {n} wopww')
+
