@@ -1,5 +1,5 @@
 name = "Lucibel"
-weight = "66"
+weight = "57"
 print("Hello " + name +" and weight is " + weight + "kg")
 
 '''%s ข้อความ'''
