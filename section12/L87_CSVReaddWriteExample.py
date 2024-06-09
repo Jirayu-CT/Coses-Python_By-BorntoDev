@@ -3,7 +3,7 @@ import csv
 
 def ReadCsv():
     #ส่วนการเปิดไฟล์ CSV ที่ชื่อ employee_birthday.txt
-    with open('L87_Employee_brithday.txt') as csv_file:
+    with open('E:\githup\Coses-Python_By-BorntoDev\section12\L87_Employee_brithday.txt') as csv_file:
     #สร้างตัวแปรที่มีหน้ามีอ่านข้อมูล CSV ชื่อ csv_reader โดยแยกข้อมูลด้วยเครื่องหมาย , (comma)
         csv_reader = csv.reader(csv_file, delimiter =',')
     #สร้างตัวแปรที่ใช้ในการนับว่ามีกี่แถวแล้ว
